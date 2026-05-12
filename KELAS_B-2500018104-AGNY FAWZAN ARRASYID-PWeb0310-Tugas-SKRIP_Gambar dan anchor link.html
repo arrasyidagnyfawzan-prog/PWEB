@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        /* ... CSS Anda tetap sama ... */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            width: 350px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #3498db;
+            transition: transform 0.3s; /* Sedikit efek animasi */
+        }
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+        h1 { margin: 15px 0 5px; color: #2c3e50; }
+        p { color: #7f8c8d; line-height: 1.5; }
+        .social-links { margin-top: 20px; }
+        .btn {
+            text-decoration: none;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+        }
+        /* Style tambahan untuk link gambar */
+        .btn-secondary {
+            background: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <a href="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" target="_blank">
+            <img src="5.jpeg" alt="Foto Profil" class="profile-img">
+        </a>
+        
+        <h1>Budi Santoso</h1>
+        <p>Web Developer & Tech Enthusiast</p>
+        <p>Saya senang mempelajari teknologi baru dan membangun aplikasi web yang bermanfaat bagi orang banyak.</p>
+        
+        <div class="social-links">
+            <a href="#" class="btn">Hubungi Saya</a>
+            
+            <a href="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+               class="btn btn-secondary" 
+               target="_blank">
+               Buka Gambar Internet
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
